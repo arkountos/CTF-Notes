@@ -9,5 +9,6 @@ https://security.stackexchange.com/questions/204876/what-is-the-difference-betwe
 - Introduction to ROP https://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
 - GDB Interface for better readability: https://github.com/cyrus-and/gdb-dashboard
 - `readelf` command
+- `dmesg` shows info about all the segfaults!
 
 ## Forensics
