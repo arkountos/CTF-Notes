@@ -10,5 +10,6 @@ https://security.stackexchange.com/questions/204876/what-is-the-difference-betwe
 - GDB Interface for better readability: https://github.com/cyrus-and/gdb-dashboard
 - `readelf` command
 - `dmesg` shows info about all the segfaults!
+- use `cat` right after you pass the payload to a binary to capture the shell! For example: `( python -c "print 'A'*20 + '\xcc\xba\x13\xca'" ; cat ) | ./vulnerable_binary` (from https://www.youtube.com/watch?v=yH8kzOkA_vw&list=PL1H1sBF1VAKVg451vJ-rx0y_ZuQMHPamH @ 5:45)
 
 ## Forensics
