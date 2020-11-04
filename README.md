@@ -10,7 +10,8 @@ A list of notes to be referenced while playing CTFs
     - Rpcclient
     - Nmap
     - Enum4linux
-  Also `eternalblue` came out in 2016 and it utilizes SMB vulnerabilities
+    
+Also `eternalblue` came out in 2016 and it utilizes SMB vulnerabilities
 
 
 ## Reverse Engineering / Binary
