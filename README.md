@@ -2,6 +2,15 @@
 A list of notes to be referenced while playing CTFs
 
 ## Web
+- Port 445 open -> Think SMB. SMB tools:
+    - Nmblookup
+    - nbtscan
+    - SMBMap
+    - Smbclient
+    - Rpcclient
+    - Nmap
+    - Enum4linux
+
 
 ## Reverse Engineering / Binary
 - When given an ELF file, I can use Ghidra to decompile it (go from executable to C source code!)
