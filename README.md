@@ -2,6 +2,7 @@
 A list of notes to be referenced while playing CTFs
 
 ## Web
+- When enumerating directories, also try names with .tar, .zip, .js, .php, .html extensions!
 - Port 445 open -> Think SMB. SMB tools:
     - Nmblookup
     - nbtscan
