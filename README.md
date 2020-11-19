@@ -2,6 +2,7 @@
 A list of notes to be referenced while playing CTFs
 
 ## Web
+- Search exploits on the net (exploit-db or google) and *not* on metasploit. Not every module you need is already shipped with metasploit!
 - Port 3306 (mysql): https://book.hacktricks.xyz/pentesting/pentesting-mysql 
 - `wp-login.php` and `wp-admin.php` for wordpress
 - When enumerating directories, also try names with .tar, .zip, .js, .php, .html extensions!
