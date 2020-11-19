@@ -2,6 +2,7 @@
 A list of notes to be referenced while playing CTFs
 
 ## Web
+- Port 3306 (mysql): https://book.hacktricks.xyz/pentesting/pentesting-mysql 
 - `wp-login.php` and `wp-admin.php` for wordpress
 - When enumerating directories, also try names with .tar, .zip, .js, .php, .html extensions!
 - Port 445 open -> Think SMB. SMB tools:
