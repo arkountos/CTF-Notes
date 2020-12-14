@@ -19,6 +19,9 @@ Also `eternalblue` came out in 2017 and it utilizes SMB vulnerabilities
 
 
 ## Reverse Engineering / Binary
+- Assembly syntax difference example between Intel and AT&T:
+    - Intel `movl $5, %eax`
+    - AT&T `mov eax, 5`
 - When given an ELF file, I can use Ghidra to decompile it (go from executable to C source code!)
 https://security.stackexchange.com/questions/204876/what-is-the-difference-between-ghidra-and-ida (I find Ghidra more straightforward and it has the Decompiler, whereas IDA has a debugger)
 - Introduction to ROP https://codearcana.com/posts/2013/05/28/introduction-to-return-oriented-programming-rop.html
