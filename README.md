@@ -20,6 +20,7 @@ Also `eternalblue` came out in 2017 and it utilizes SMB vulnerabilities
 
 ## Reverse Engineering / Binary
 - When given an ELF executable, I can use Ghidra, Cutter to decompile it (go from executable to C source code)
+- LD_PRELOAD tricks. You can specify your own standard library functions, like `malloc` or `strcmp`, in a custom library, then use LD_PRELOAD to load this library before the standard C one. Now when the program uses `malloc` your custom code will run instead of the standard malloc code. A crackme solution that overrides the `strcmp` function to solve it: https://crackmes.one/static/solution/5f09c44a33c5d42a7c667979.zip (ZED-Crackme)
 
 ### Assembly / C
 - Assembly syntax difference example between Intel and AT&T:
