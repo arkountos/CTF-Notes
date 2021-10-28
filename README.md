@@ -35,4 +35,7 @@ Also `eternalblue` came out in 2017 and it utilizes SMB vulnerabilities
 - `dmesg` shows info about all the segfaults!
 - use `cat` right after you pass the payload to a binary to capture the shell! For example: `( python -c "print 'A'*20 + '\xcc\xba\x13\xca'" ; cat ) | ./vulnerable_binary` (from https://www.youtube.com/watch?v=yH8kzOkA_vw&list=PL1H1sBF1VAKVg451vJ-rx0y_ZuQMHPamH @ 5:45)
 
+### Hardware
+- SPI (Serial Peripheral Interface) vs I2C Protocols: https://articles.saleae.com/logic-analyzers/spi-vs-i2c-protocol-differences-and-things-to-consider#spi-vs-i2c-protocol-differences-and-things-to-consider
+
 ## Forensics
